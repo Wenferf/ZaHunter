@@ -13,6 +13,7 @@
 		BF21631526B51BEE006CFB9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF21631426B51BEE006CFB9A /* Preview Assets.xcassets */; };
 		BF21632026B51BEE006CFB9A /* ZaHunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21631F26B51BEE006CFB9A /* ZaHunterTests.swift */; };
 		BF21632B26B51BEE006CFB9A /* ZaHunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21632A26B51BEE006CFB9A /* ZaHunterUITests.swift */; };
+		BF21633926B51D80006CFB9A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21633826B51D80006CFB9A /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		BF21632626B51BEE006CFB9A /* ZaHunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaHunterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF21632A26B51BEE006CFB9A /* ZaHunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaHunterUITests.swift; sourceTree = "<group>"; };
 		BF21632C26B51BEE006CFB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF21633826B51D80006CFB9A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				BF21630D26B51BE9006CFB9A /* ZaHunterApp.swift */,
 				BF21630F26B51BE9006CFB9A /* ContentView.swift */,
+				BF21633826B51D80006CFB9A /* LocationManager.swift */,
 				BF21631126B51BEE006CFB9A /* Assets.xcassets */,
 				BF21631626B51BEE006CFB9A /* Info.plist */,
 				BF21631326B51BEE006CFB9A /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				BF21631026B51BE9006CFB9A /* ContentView.swift in Sources */,
 				BF21630E26B51BE9006CFB9A /* ZaHunterApp.swift in Sources */,
+				BF21633926B51D80006CFB9A /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
